@@ -1,0 +1,6 @@
+transformers
+torch
+flask
+requests
+indic-nlp-library
+coqui-tts
