@@ -25,7 +25,7 @@ def health_check():
     return "Bot is running", 200
 
 def run_flask():
-    port = int(os.environ.get("PORT", 5000))  # For Render or other platforms
+    port = int(os.environ.get("PORT", 4000))  # For Render or other platforms
     app.run(host="0.0.0.0", port=port)
 
 # Hinglish to Hindi Transliteration
